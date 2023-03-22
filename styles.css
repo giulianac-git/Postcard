@@ -1,5 +1,6 @@
 body {
 	background: black;
+	font-family: "Delicious Handrawn";
 }
 
 * {
@@ -16,6 +17,7 @@ body {
 
 .postcard-header {
 	display: flex;
+	padding: 5px;
 }
 
 .postcard-header img {
@@ -34,6 +36,7 @@ body {
 
 .body-left p:first-child {
 	margin-top: 0px;
+	width: 200px;
 }
 
 .body-left,
@@ -42,12 +45,15 @@ body {
 }
 
 input {
+	font-family: "Delicious Handrawn";
+	font-size: 16px;
 	border: none;
 	border-bottom: 1px solid grey;
+	width: 165px;
 }
 
 p {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .postcard-footer {
